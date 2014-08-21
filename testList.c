@@ -2,7 +2,7 @@
 
 int main()
 {
-    struct sample_node * sn = loadSample("sample.dat", 2);
+    struct samples* sn = loadSample("sample.dat");
     printSample(sn);
     return 0;
 }
